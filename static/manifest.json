@@ -1,0 +1,10 @@
+{
+    "name": "MSL Translator",
+    "short_name": "MSL",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f5f7f6",
+    "theme_color": "#0f766e",
+    "description": "Application de reconnaissance et traduction des signes marocains en temps réel.",
+    "icons": []
+}

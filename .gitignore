@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.idea/
+.vscode/
+# Videos et dataset (ne pas partager)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+dataset/
+*.npz
+*.npy

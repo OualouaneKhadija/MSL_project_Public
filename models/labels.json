@@ -1,0 +1,122 @@
+{
+    "0": {
+        "id": 0,
+        "name": "3yan",
+        "display_text": "3yan",
+        "tts_text": "3yan"
+    },
+    "1": {
+        "id": 1,
+        "name": "7chman",
+        "display_text": "7chman",
+        "tts_text": "7chman"
+    },
+    "2": {
+        "id": 2,
+        "name": "chokran",
+        "display_text": "chokran",
+        "tts_text": "chokran"
+    },
+    "3": {
+        "id": 3,
+        "name": "deki",
+        "display_text": "deki",
+        "tts_text": "deki"
+    },
+    "4": {
+        "id": 4,
+        "name": "deri_sghir",
+        "display_text": "deri_sghir",
+        "tts_text": "deri_sghir"
+    },
+    "5": {
+        "id": 5,
+        "name": "farhan",
+        "display_text": "farhan",
+        "tts_text": "farhan"
+    },
+    "6": {
+        "id": 6,
+        "name": "intiwai",
+        "display_text": "intiwai",
+        "tts_text": "intiwai"
+    },
+    "7": {
+        "id": 7,
+        "name": "jadda",
+        "display_text": "jadda",
+        "tts_text": "jadda"
+    },
+    "8": {
+        "id": 8,
+        "name": "jari",
+        "display_text": "jari",
+        "tts_text": "jari"
+    },
+    "9": {
+        "id": 9,
+        "name": "jedd",
+        "display_text": "jedd",
+        "tts_text": "jedd"
+    },
+    "10": {
+        "id": 10,
+        "name": "ka2ib",
+        "display_text": "ka2ib",
+        "tts_text": "ka2ib"
+    },
+    "11": {
+        "id": 11,
+        "name": "l3afw",
+        "display_text": "l3afw",
+        "tts_text": "l3afw"
+    },
+    "12": {
+        "id": 12,
+        "name": "labas",
+        "display_text": "labas",
+        "tts_text": "labas"
+    },
+    "13": {
+        "id": 13,
+        "name": "lhob",
+        "display_text": "lhob",
+        "tts_text": "lhob"
+    },
+    "14": {
+        "id": 14,
+        "name": "lmra",
+        "display_text": "lmra",
+        "tts_text": "lmra"
+    },
+    "15": {
+        "id": 15,
+        "name": "mghyar",
+        "display_text": "mghyar",
+        "tts_text": "mghyar"
+    },
+    "16": {
+        "id": 16,
+        "name": "mounafiq",
+        "display_text": "mounafiq",
+        "tts_text": "mounafiq"
+    },
+    "17": {
+        "id": 17,
+        "name": "ne3am",
+        "display_text": "ne3am",
+        "tts_text": "ne3am"
+    },
+    "18": {
+        "id": 18,
+        "name": "sahbi",
+        "display_text": "sahbi",
+        "tts_text": "sahbi"
+    },
+    "19": {
+        "id": 19,
+        "name": "salam_alaykom",
+        "display_text": "salam_alaykom",
+        "tts_text": "salam_alaykom"
+    }
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0f766e">
+    <title>MSL Translator</title>
+
+    <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="page">
+        <header class="header">
+            <div>
+                <h1>MSL Translator</h1>
+                <p>Reconnaissance et traduction des signes marocains</p>
+            </div>
+
+            <div id="status" class="status">
+                Prêt
+            </div>
+        </header>
+
+        <section class="layout">
+            <div class="video-container">
+                <img
+                    id="videoFeed"
+                    src="/video_feed?landmarks=true&voice=false"
+                    alt="Flux vidéo"
+                >
+            </div>
+
+            <aside class="panel">
+                <div class="prediction-box">
+                    <span class="label">Traduction</span>
+                    <strong id="predictionText">Aucune prédiction</strong>
+                    <small id="confidenceText">Confiance : 0%</small>
+                </div>
+
+                <div class="options-box">
+                    <label>
+                        <input type="checkbox" id="landmarksToggle" checked>
+                        Afficher les points clés
+                    </label>
+
+                    <label>
+                        <input type="checkbox" id="voiceToggle">
+                        Activer la voix
+                    </label>
+
+                    <div class="language-box">
+                        <label for="languageSelect">Langue de traduction :</label>
+                        <select id="languageSelect">
+                            <option value="darija">🇲🇦 Darija</option>
+                            <option value="français">🇫🇷 Français</option>
+                            <option value="anglais">🇬🇧 Anglais</option>
+                            <option value="espagnol">🇪🇸 Espagnol</option>
+                            <option value="chinois">🇨🇳 Chinois</option>
+                        </select>
+                    </div>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+    "dataset_path": "dataset/",
+    "n_classes": 20,
+    "classes": [
+        "3yan",
+        "7chman",
+        "chokran",
+        "deki",
+        "deri_sghir",
+        "farhan",
+        "intiwai",
+        "jadda",
+        "jari",
+        "jedd",
+        "ka2ib",
+        "l3afw",
+        "labas",
+        "lhob",
+        "lmra",
+        "mghyar",
+        "mounafiq",
+        "ne3am",
+        "sahbi",
+        "salam_alaykom"
+    ],
+    "n_sequences": 3378,
+    "n_videos": 140,
+    "skipped_videos": [],
+    "sliding_stride": 5,
+    "sequence_length": 30
+}
